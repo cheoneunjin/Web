@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>천은진 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="mportpolio.css"/>
+ 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script>
+  		$( function() {
+    		$( "#dialog" ).dialog();
+  		} );
+  	</script>
+</head>
+<body>
+	<header>
+		<h1>천은진 홈페이지</h1>
+	</header>
+	<nav>
+		<span><a href="mcareer.html"> 경력 </a></span>
+		<span><a href="mstudy.html"> 학술 </a></span>
+		<span><a href="minfo.html"> 인적 </a></span>
+		<span><a href="mintro.html"> 소개 </a></span>
+	</nav>
+  <div class="content">
+	<section class="section1">  
+		<h3>인적사항</h3>
+		<ul>
+			<li>성    명 : 천은진</li>
+			<li>생년월일 : 2000. 02. 23</li>
+			<li>주    소 : 부산광역시 동래구</li>
+			<li>연 락 처 : 010-123-4567</li>
+			<li>학    력
+			<table id="year-table" border="1">
+				<thead>
+					<tr>	<th>졸업년도</th> <th>출신학교</th></tr>
+				</thead>
+				<tbody>
+					<tr>	<td>2013. 2</td><td> dd초등학교 졸업</td>	</tr>
+					<tr>	<td>2016. 2.</td><td> gg중학교 졸업</td>	</tr>
+					<tr>	<td>2019. 2.</td><td> dg고등학교 졸업</td></tr>
+					<tr>	<td>2023. 2.</td><td> ks대학교 컴퓨터학과 졸업예정</td></tr>
+				</tbody>
+			</table>
+			</li>
+		</ul>
+	</section>
+	<div id="dialog" title="개인정보 유출 주의">
+  <p>해당 페이지는 개인의 정보가 다수 포함되어있는 페이지로서 개인정보 유출에 대해서 주의해주세요:)</p>
+</div>
+	<img id="logo" src="logo.jpg"/>	
+	<aside>
+		<h3>참조링크</h3>
+		<a href="http://www.naver.com">
+			<img class="portal" src="naver.jpg" alt="네이버이동"/>
+		</a>
+		<a href="http://www.google.com">
+			<img class="portal" src="google.jpg" alt="구글이동"/>
+		</a>
+		<a href="http://www.daum.net">
+			<img class="portal" src="daum.jpg" alt="다음이동"/>
+		</a>
+	</aside>
+  </div>
+	<footer>
+		<h2>Copyright &copy; 2021 Cheon, EunJin </h2>
+	</footer>
+</body>
+</html>
